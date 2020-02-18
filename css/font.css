@@ -1,0 +1,191 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans bold'), local('OpenSans'), url('../fonts/Opensans/opensansbold.woff2') format('woff2'), url('../fonts/opensans/opensansbold.woff') format('woff'), url('../fonts/opensans/opensansbold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto/Robotolight.woff2') format('woff2'), url('../fonts/Roboto/Robotolight.woff') format('woff'), url('../fonts/Roboto/Robotolight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/Roboto/Roboto.woff2') format('woff2'), url('../fonts/Roboto/Roboto.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto italic';
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('../fonts/Roboto/Robotoitalic.woff2') format('woff2'), url('../fonts/Roboto/Robotoitalic.woff') format('woff'), url('../fonts/Roboto/Robotoitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Medium';
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/Roboto/Robotomedium.woff2') format('woff2'), url('../fonts/Roboto/Robotomedium.woff') format('woff'), url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Roboto/Robotobold.woff2') format('woff2'), url('../fonts/Roboto/Robotobold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Black';
+  src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/Roboto/Robotoblack.woff2') format('woff2'), url('../fonts/Roboto/Robotoblack.woff') format('woff'), url('../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/theme/icomoon.eot?5qz12');
+  src:  url('../fonts/theme/icomoon.eot?5qz12#iefix') format('embedded-opentype'),
+    url('../fonts/theme/icomoon.ttf?5qz12') format('truetype'),
+    url('../fonts/theme/icomoon.woff?5qz12') format('woff'),
+    url('../fonts/theme/icomoon.svg?5qz12#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-comp:before {
+  content: "\e918";
+}
+.icon-heart:before {
+  content: "\e917";
+}
+.icon-google:before {
+  content: "\e904";
+}
+.icon-menu:before {
+  content: "\e915";
+}
+.icon-arrow_right:before {
+  content: "\e916";
+}
+.icon-arrow_left:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-brand:before {
+  content: "\e901";
+}
+.icon-social:before {
+  content: "\e901";
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+.icon-brand1:before {
+  content: "\e902";
+}
+.icon-tweet:before {
+  content: "\e902";
+}
+.icon-social1:before {
+  content: "\e902";
+}
+.icon-search:before {
+  content: "\e903";
+}
+.icon-magnifier:before {
+  content: "\e903";
+}
+.icon-magnifying-glass:before {
+  content: "\e903";
+}
+.icon-inspect:before {
+  content: "\e903";
+}
+.icon-find:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-user:before {
+  content: "\e906";
+}
+.icon-cart:before {
+  content: "\e909";
+  
+}
+.icon-reg:before {
+  content: "\e907";
+  
+}
+.icon-bold:before {
+  content: "\e908";
+
+}
+.icon-cart:before {
+  content: "\e909";
+  
+}
+.icon-certf:before {
+  content: "\e90a";
+  
+}
+.icon-delivery:before {
+  content: "\e90b";
+  
+}
+.icon-drawing:before {
+  content: "\e90c";
+  
+}
+.icon-gayki:before {
+  content: "\e90d";
+ 
+}
+.icon-grover:before {
+  content: "\e90e";
+}
+.icon-key:before {
+  content: "\e90f";
+  
+}
+.icon-phone:before {
+  content: "\e910";
+  
+}
+.icon-shaiba:before {
+  content: "\e911";
+  
+}
+.icon-shop:before {
+  content: "\e912";
+  
+}
+.icon-shpilka:before {
+  content: "\e913";
+ 
+}
+.icon-shplint:before {
+  content: "\e914";
+  
+}

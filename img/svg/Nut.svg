@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.438" height="21.406" viewBox="0 0 23.438 21.406">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004e90;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Nut" class="cls-1" d="M548.428,206.357l-5.857,10.7,5.857,10.7h11.715l5.857-10.7-5.857-10.7H548.428Zm6.006,15.812a5.586,5.586,0,1,1,5.351-5.581A5.47,5.47,0,0,1,554.434,222.169Z" transform="translate(-542.562 -206.344)"/>
+</svg>

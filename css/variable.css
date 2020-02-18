@@ -1,0 +1,44 @@
+.flex {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+}
+a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  color: #0099fc;
+}
+.transition {
+  transition: 0.5s ease-in-out;
+}
+a:hover {
+  color: #0099fc;
+  transition: 0.5s ease-in-out;
+}
+.box-shadow {
+  -webkit-box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+  -moz-box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+  box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+}
+.btn {
+  background: #004e90;
+  transition: 0.5s ease-in-out;
+  border: none;
+}
+.btn:hover {
+  background: #fd3a3a;
+  color: #fff !important;
+  transition: 0.5s ease-in-out;
+  -webkit-box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+  -moz-box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+  box-shadow: 2px 13px 10px -6px rgba(0, 1, 1, 0.16);
+  cursor: pointer;
+}
