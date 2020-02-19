@@ -64,7 +64,7 @@
     height: 42px;
   }
   .search-wrap .btn {
-    height: 48px;
+    height: 100%;
   }
 }
 @media (min-width: 1160px) {
@@ -207,7 +207,7 @@
   }
   .search-wrap #subscrube {
     width: auto;
-    height: 48px;
+    height: 100%;
   }
   .search-wrap .btn {
     height: 33px;
@@ -508,6 +508,36 @@
   footer .item-foter:last-child,
   footer .flex .marg {
     width: 100%;
+  }
+  .how .container .item-how {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .how .container .item-how p {
+    font-size: 9px;
+  }
+  .how .container .item-how img {
+    width: 30px;
+  }
+  .how h4 {
+    font-size: 13px;
+    text-align: left;
+  }
+  .how {
+    padding-top: 15px;
+  }
+  .about p,
+  .about .wrap-short-about ul li {
+    text-align: left;
+    font-size: 9px;
+  }
+  .about h1 {
+    font-size: 14px;
+    text-align: left;
+  }
+  .about .wrap-short-about h4 {
+    text-align: left;
+    font-size: 10px;
   }
 }
 .flex {

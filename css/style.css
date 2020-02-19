@@ -437,7 +437,7 @@ a:hover {
   border-radius: 20px;
 }
 .wrpa-subscrb #search {
-  height: 46px;
+  height: 100%;
   border: 1px solid #aaaaaa;
   color: #020202;
   font-size: 14px;

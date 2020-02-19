@@ -1,0 +1,23 @@
+{
+  "name": "metiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgen77/Metiz.git"
+  },
+  "author": "Digital King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgen77/Metiz/issues"
+  },
+  "homepage": "https://github.com/evgen77/Metiz#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
