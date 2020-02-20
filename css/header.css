@@ -1,6 +1,7 @@
 body {
   font-size: 14px;
   font-family: 'Roboto Regular', sans-serif;
+  line-height: 1.5;
 }
 img {
   width: 100%;
@@ -235,14 +236,16 @@ li {
   width: 100%;
   max-width: 215px;
 }
+#category-menu {
+  background: #004e90;
+  border-top: 5px solid #2a2a2a;
+  padding: 8px 8px 8px 15px;
+}
 .icon-menu {
   display: none;
   cursor: pointer;
   color: #fff;
-  background: #004e90;
-  padding: 8px 8px;
-  border-top: 5px solid #2a2a2a;
-  text-align: center;
+  text-align: left;
 }
 .icon-menu span {
   font-family: 'Roboto Black', sans-serif;
@@ -269,7 +272,7 @@ li {
   background: #f3f3f3;
   width: 100%;
   left: 0;
-  z-index: 99;
+  z-index: 9999;
   display: -webkit-box;
   /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;

@@ -18,7 +18,7 @@
       }
     },
     {
-      breakpoint: 448,
+      breakpoint: 577,
       settings: {
        
         slidesToShow: 1      
@@ -118,13 +118,16 @@
     });
 
       //mobile menu toggle
-    $('.icon-menu').click(function () {
+    $('#category-menu').click(function () {
       $('nav ul').addClass('show');
       $('body,html').css({'overflow-y': 'hidden'});
     });
     $('nav .close').click(function () {
       $('nav ul').removeClass('show');
       $('body,html').css({'overflow-y': 'auto'});
+    });
+    $(".line-menu-btn").click(function(){
+      $('.contact-info').slideToggle(500);
     });
 
 
