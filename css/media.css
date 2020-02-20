@@ -502,7 +502,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 185px;
-    height: 245px;
+    height: 260px;
   }
   .wrap-product .nameProduct {
     font-size: 14px;
@@ -533,6 +533,7 @@
   }
   .wrap-product .price {
     font-size: 12px;
+    margin-bottom: 0;
   }
   .wrap-product p {
     margin: 5px;
@@ -582,6 +583,12 @@
   .slick-next {
     width: 25px!important;
     height: 25px!important;
+  }
+  #carouselBest .slick-next {
+    right: 20px!important;
+  }
+  #carouselBest .slick-prev {
+    left: 20px!important;
   }
   .banner-wrap {
     height: 224px;
