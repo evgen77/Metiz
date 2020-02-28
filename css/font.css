@@ -73,8 +73,23 @@
 .icon-comp:before {
   content: "\e918";
 }
+.icon-card:before {
+  content: "\e908";
+  
+}
+.icon-email:before {
+  content: "\e90d";
+ 
+}
+.icon-location:before {
+  content: "\e90e";
+}
 .icon-heart:before {
   content: "\e917";
+}
+.icon-key:before {
+  content: "\e90a";
+ 
 }
 .icon-google:before {
   content: "\e904";
@@ -165,12 +180,12 @@
 .icon-grover:before {
   content: "\e90e";
 }
-.icon-key:before {
-  content: "\e90f";
-  
-}
 .icon-phone:before {
   content: "\e910";
+  
+}
+.icon-download:before {
+  content: "\e90f";
   
 }
 .icon-shaiba:before {
@@ -188,4 +203,27 @@
 .icon-shplint:before {
   content: "\e914";
   
+}
+.icon-fastorder:before {
+  content: "\e914";
+  
+}
+.icon-ser:before {
+  content: "\e91a";
+
+}
+.icon-headphone:before {
+  content: "\e919";
+ 
+}
+.icon-box:before {
+  content: "\e911";
+ 
+}
+.icon-chk:before {
+  content: "\e913";
+ 
+}
+.icon-checkmark:before {
+  content: "\e91b";
 }

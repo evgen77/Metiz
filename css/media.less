@@ -11,7 +11,7 @@
    } 
 }
   
-   .how{
+   .how-home{
        
        .container{
            padding-left: 18%;
@@ -30,8 +30,57 @@
 
 
    @media(min-width: 1800px){
+       #content p{
+           font-size: 18px;
+       }
+       //about
+       .about-how{
+           i{
+               font-size: 63px;
+           }
+           .container .item-how p{
+               font-size: 18px;
+           }
+
+       }
+       //sertificate
+       .sertificate p{
+           font-size: 18px;
+       }
+       //order
+       .number{
+           .text-order{
+               h4{
+                   font-size: 28px;
+               }
+               p{
+                   font-size: 18px;
+                   a{
+                       font-size: 18px;
+                   }
+               }
+           }
+       }
+       //contact
+       .recw{
+           font-size: 22px;
+       }
+       .contact-info p, a, i{
+           font-size: 22px;
+       }
+       .contact-page{
+        p{
+            font-size: 18px;
+        }
+    }
+    .info-contact{
+        p{
+            font-size: 22px;
+           
+        }
+    }
   // form-subc
-  .wrpa-subscrb{
+  .home{
     padding-left: 22%;
 
 }
@@ -49,7 +98,7 @@
         margin:0;
     }
 }
-.how{
+.how-home{
        
     .container{
         padding-left: 13%;
@@ -103,7 +152,9 @@
     
 }
 @media(min-width: 1160px){
-       
+    section.about-page .wrap-item .nameCat{
+        font-size: 1em;
+    }    
 
     .text-subscrb{
      
@@ -115,12 +166,12 @@
             margin:0;
         }
     }
-    .how .container{padding-left: 415px;}
-    .how{
+    .how-home .container{padding-left: 415px;}
+    .how-home{
         padding-top: 30px;
         padding-bottom: 40px;
     }
-    .wrpa-subscrb {
+    .home {
         padding-left:415px;
     }
     .relative img{
@@ -177,7 +228,7 @@
     .tell-wrap a{
         margin: 0;
     }
-    .how .container .item-how img{
+    .how-home .container .item-how img{
         width: 50px;
     }
     
@@ -211,7 +262,7 @@
 }
 @media(max-width:1150px){
     .wrpa-subscrb,
-    .how .container{
+    .how-home .container{
         padding-left: 15px;
     }
 
@@ -221,6 +272,10 @@
 }
 
 @media(max-width:992px){
+    .text-addition p span{
+        font-size: 25px;
+        margin-right: 5px;
+    }
     #wrap-cart{
         margin-left: 15px;
     }
@@ -232,14 +287,11 @@
                  font-size: 0.98em;
              }
     } 
-    .how .container{
+    .how-home .container{
         padding: 0 15px;
-        .item-how{
-            
-           
-        }
+      
     }
-    .wrpa-subscrb{
+    .home{
         padding-left: 0;
         .col-12{
             padding: 0 15px;
@@ -435,9 +487,22 @@
         width: 100%;
         margin-left: -15px;
     }
+    .botton .number{
+        margin-top: 30px;
+        i{
+            font-size: 30px;
+            margin-right: 15px;
+        }
+    }
+    .botton p{
+        font-size: 14px;
+
+    }
 }
 @media(max-width:882px){
-   
+    .text-addition p{
+        font-size: 12px;
+    }
   
     #wrap-popup .popup-body .popup-form    {
        .left{
@@ -479,6 +544,16 @@
     }
 }
 @media(max-width:769px){
+  
+    .row-info-cont h4{
+        font-size: 20px;
+    }
+    .info-contact p{
+        font-size: 14px;
+    }
+    .recw {
+        font-size: 15px;
+    }
     .section-name{
         font-size: 20px;
         margin: 20px 0;
@@ -517,6 +592,15 @@
     }
     .item-how{
         width: 50%;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+      
+
+    }
+    .about-how i{
+        font-size: 30px;
     }
     .mobile-phone{
         display: block!important;
@@ -583,11 +667,129 @@
   
 
 
-.how h4{
+.how-home h4{
     font-size: 24px;    
 } 
 }
 @media(max-width:577px){
+    .how{
+        background-position: bottom;
+        padding-bottom: 20px;
+    }
+    .how h4{
+        font-size: 16px;
+    }
+    section.about-page{
+        padding-bottom: 40px;
+    }
+    section.about-page .chek-line p i{
+        width: 15px;
+        height: 15px;
+       
+        &:before{
+            font-size: 10px;
+        }
+    }
+    section.about-page .chek-line p span{
+        font-size: 13px;
+        flex: 0 auto;
+    }
+   
+    section.about-page .wrap-item{
+        height: 110px;
+        width: 120px;
+        margin: 10px auto;
+        .nameCat{
+            bottom: 5px;
+        }
+        img{
+            width: 81px;
+
+        }
+    }
+    section.about-page .row{
+        margin: 0 15px;
+    }
+    section.about-page .row .col-6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+   
+    .search-wrap .btn{
+        font-size: 14px;
+    }
+    #content .title-page{
+        font-size: 17px;
+    }
+    .tell-about  i{
+        font-size: 22px;
+    }
+    .tell-about p span{
+        font-size: 20px;
+        display: block;
+    }
+    .text-addition p span{
+        font-size: 30px;
+        
+    }
+    .text-addition p{
+        font-size: 10px;
+    }
+   .mob-relative{
+       position: relative;
+       img{
+           position: absolute;
+           bottom: 0;
+           right: 0px;
+           max-width: 325px;
+           width: 80%;
+       }
+   }
+    .botton .number{
+      flex-direction: column;
+       .text-order{
+           padding-right: 50%;
+           padding-bottom: 50%;
+       }
+       i{
+           margin-bottom: 20px;
+       }
+    }
+    .recw{
+        font-size: 15px;
+    }
+    .info-contact .mail{
+        margin-bottom: 16px;
+    }
+    #content h1{
+        font-size: 17px;
+    }
+    .bread{
+        margin: 10px 0;
+    }
+    .bread li {
+        font-size: 10px;
+        a{
+            font-size: 10px;    
+        }
+    }
+   
+    .info-contact p a{
+        font-size: 14px;
+    }
+    .info-contact div i{
+        font-size: 16px;
+        margin-right: 14px;
+    }
+    .contact-page section{
+        padding: 40px 0;
+    }
+    .row-map{
+        margin: 20px 0;
+    }
+    .info-contact div{
+        margin-bottom: 10px;
+    }
    
     .wrap-product {
         margin-right: auto;
@@ -650,7 +852,7 @@
         }
        
     }
-    .how{
+    .how-home{
         background-position: right;
         padding-bottom: 15px;
     }
@@ -704,7 +906,7 @@
     }
     .wrpa-subscrb{
         margin-bottom: 0px;
-        padding: 20px 0;
+        padding: 20px 15px;
         h4{
             font-size:10px;
            
@@ -787,6 +989,12 @@ rgba(0, 1, 1, 0.16);
     }
 }
 @media(max-width:480px){
+    .row-info-cont{
+        h4{
+            font-size: 17px;
+            margin-bottom: 16px;
+        }
+    }
     .section-name{
         font-size: 15px;
         margin: 15px 0;
@@ -801,16 +1009,109 @@ rgba(0, 1, 1, 0.16);
     footer .item-foter{
         width: 100%;
     }
-  
+    section.about-page{
+        .chek-line p{
+            font-size: 13px;
+        }
+    }
+    
 }
 @media(max-width:390px){
+    //sertificate
+    .downl {
+        a{font-size: 14px;
+            
+        i{
+            width: 30px;
+            height: 30px;
+            &:before{
+                font-size: 14px;
+            }
+        }
+    }
+    }
+    .botton p{
+        font-size: 14px;
+
+    }
+    .botton i{
+        font-size: 30px;
+    }
+    .number{
+        margin-bottom: 30px;
+        .one{
+            width: 38px;
+            height: 38px;
+            font-size: 16px;
+            margin-right: 19px;
+        }
+        .text-order{
+            h4{
+                font-size: 15px;
+                margin-bottom: 7px;
+            }
+            p{
+                font-size: 12px;
+                a{
+                    font-size: 12px;
+                    font-family: @font-B;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    footer .copy{
+        font-size: 6px;
+    }
+    footer .item-foter:nth-child(3),
+    footer .item-foter:nth-child(2){
+        margin-top: 30px;
+    }
+    footer h5{
+        margin-bottom: 10px;
+    }
+    footer .item-foter ul li a{
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    #contactForm{
+        div{
+            flex-wrap: wrap;
+        }
+        .tell,
+        .email{
+            width: 100%;
+        }
+        .tell{
+            margin-right: 0;
+        }
+        input{
+            height: 37px;
+            font-size: 15px;
+            padding-left: 7px;
+        }
+        textarea{
+            font-size: 15px;
+            height: 37px;
+            padding-top: 7px;
+            padding-left: 7px;
+        }
+        button{
+            max-width: 130px;
+        }
+    }
     footer .item-foter:last-child,
     footer .flex .marg{
         width: 50%
        
     }
-    footer .item-foter a,p{
-        font-size: 10px!important;
+   
+    footer .item-foter a{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    footer p, a{
+        font-size: 10px;
     }
     .how .container .item-how{
         align-items: flex-start;
@@ -822,14 +1123,20 @@ rgba(0, 1, 1, 0.16);
             width: 30px;
         }
     }
+    .about-how{
+
+        .container .item-how p{
+            font-size: 11px;
+        }
+    }
     footer h5{
         font-size: 11px;
     }
-    .how h4{
+    .how-home h4{
         font-size: 13px;
         text-align: left;
     }
-    .how{
+    .how-home{
         padding-top: 15px;
     }
     .about p,

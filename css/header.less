@@ -1,7 +1,24 @@
+html,
 body{
     font-size: 14px;
     font-family: @font-R;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+#content{
+    flex: 1 0 auto;
+    .title-page{
+        font-size: 2em;
+        color: @blue;
+        font-family: @font-B;
+        text-transform: uppercase;
+    }
+}
+footer{
+    flex: 0 0 auto;
 }
 img{
     width: 100%;
@@ -379,9 +396,14 @@ h4{
     }
 }
 .bread{
-    padding-left: 0;
+    padding-left: 23px;
     .flex;
     flex-wrap: wrap;
+    width: 100%;
+    height: 38px;
+    background: #f3f3f3;
+    margin-top: 23px;
+    margin-bottom: 5px;
     li{
      
        display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
@@ -393,10 +415,12 @@ h4{
        -webkit-box-align:center;
        a{
            font-size: 16px;
+           font-family: @font-B;
+           color: #151515;
        }
       
        &::after{
-           content: "/";
+           content: ">";
            display: block;
            margin: 0 10px;
            
